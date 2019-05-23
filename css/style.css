@@ -1,0 +1,385 @@
+
+*{margin:0;padding:0;}
+
+	p{line-height:25px;}	
+	
+	*{
+		
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		box-sizing:border-box;
+	}	
+	
+	.Container{
+
+	
+	font-family:Roboto-Regular;
+	max-width:1170px;
+	margin:0 auto;
+   overflow:hidden;
+   padding-left:15px;
+	padding-right:15px;
+	
+	
+	}
+#First-Section{
+		
+	
+	background:url(../img/Bg.jpg)no-repeat;
+
+	background-size:cover;
+	background-position:center center;
+
+	}
+
+.Slidr-Top{
+	margin-top:20px;
+	
+	
+}
+.logo{
+	
+	float:left;
+	width:20%;
+}
+.Menu{
+	
+	
+	float:right;
+	
+
+
+	
+
+	
+	}
+.Menu ul{
+	
+	
+	margin:0;
+	padding:0;
+	
+}
+.Menu ul li{
+	
+	float: left;
+	list-style:none;
+	position: relative;
+}
+.Menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+   text-transform:uppercase;
+   color:#fff;
+	
+	}
+
+
+.Menu ul li a:hover{
+	
+	
+	
+	background-color:#fff;
+	
+	color:red;
+	
+}
+
+.Menu ul li ul{
+	background:#000;
+	position: absolute;
+	left:-999999px;
+}
+.Menu ul li:hover ul {
+	left:0;
+	width:100%;
+}
+
+
+.Menu ul li ul li{
+
+	float:none;
+}
+
+.Menu ul li ul li a{
+
+	display:block;
+	text-align:center;
+	
+}
+.Slider-Content{
+	
+	padding:200px 0;
+	text-align:center;
+   color:#fff;
+	font-family: Roboto-Regular;
+	}
+
+	
+.Slider-Content h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+	
+	.Slider-Content h1 {
+    font-size: 68px;
+    border-top: 2px solid #fff;
+    border-left: 1px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-right: 1px solid #fff;
+    display: block;
+    width: 510px;
+    padding: 20px 30px;
+
+	margin:0 auto;
+}
+.Slider-Content h3{
+	
+	
+	 font-size: 36px;
+	 margin-top:10px;
+}
+span{
+	
+	color:#87d37c;
+	
+}
+#li-1:hover{
+
+	background:#fff;
+	
+}
+.overly{
+	margin:0;
+	padding:0;
+	background-color:rgba(0,0,0,.3);
+}
+
+
+
+/*Start About*/
+#About-US {
+    color: #8d8c8c;
+    margin-bottom:  80px;
+		
+	  
+}
+
+.Section-Top {
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+.Section-Top h2 {
+    
+    font-size: 36px;
+}
+
+.Section-Top p {
+    max-width:700px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+
+	
+.About-content{
+  text-align:center;
+  padding:20px 0px;
+		
+}
+
+
+	
+.About{
+	
+	width:25%;
+	float:left;
+	
+}
+
+
+.About i {
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.About h2 {
+    
+    margin-bottom: 8px;
+}
+
+.About:hover i,
+.About:hover h2{
+	
+	
+	color:#87d37c;
+}
+
+#Servise{
+	background:#f6f9f9;
+	padding:80px 0;
+   	
+	}
+
+
+.Servise-Top{
+	
+	width:900px;
+	margin:0 auto;
+	text-align:center;
+   margin-bottom:30px
+}
+
+.Servise-Top h2{
+	color:#8d8c8c;
+	font-size:36px;
+	text-transform:uppercase;
+	
+}
+.Servise-Top p {
+    color: #8d8c8c;
+    max-width:863px;
+}
+.Servise-imges{
+	width:25%;
+	float:left;
+	
+}
+ 
+ 
+ #Contact-US{
+	padding:100px 0;
+	
+}
+.Top-contact{
+	
+	text-align:center;
+	color:#8d8c8c;
+	margin-bottom:40px;
+	}
+.Top-contact h2{
+    font-size: 35px;
+    margin-bottom:10px;
+}
+
+.Top-contact p{
+    font-size: 18px;
+    margin:0 auto;
+    max-width: 700px;
+}
+
+.Contact-middle{
+	float:left;
+   
+   color:#8d8c8c;
+   text-align:center;
+   width:33.33333%;
+   margin-top:20px;
+   margin:0 auto;
+   margin-bottom:30px;
+   
+}
+
+.Contact-middle i {
+    font-size: 65px;
+	 margin-bottom:15px;
+	 
+}
+
+.Contact-middle:hover{
+	color:#87d37c;
+}
+
+	
+	.Form{
+		padding:20px;
+		
+		
+		
+	}
+	.Contact-Form{
+		float:left;
+		width:50%;
+		
+	}
+	.Contact-Form input{
+		
+		padding:10px;
+		width:98%;
+	   margin-bottom:10px;
+	   
+	}
+	
+	.Messege{
+		
+		float: left;
+		width:50%;
+	}
+	
+	
+	#textarea{
+		
+		padding:10px;
+		width:100%;
+	}
+.button {
+    
+	 width:100px;
+	 padding: 10px;
+    margin-top: 12px;
+   
+    background-color: #fff;
+    height: 37px ;
+    border:1px #8D8C8C solid;
+    text-transform: uppercase;
+	 color:#8D8C8C;
+	 font-weight:bold;
+}
+	.button:hover{
+		
+		background-color:#87d37c;
+		color:#fff;
+		
+		
+	}
+	#Social-icon{
+		background-color:#030303;
+		
+	}
+	
+	.Social-icons {
+    font-size: 39px;
+    text-align: center;
+    margin: 10px;
+    letter-spacing: 23px;
+}
+	
+	.fa-facebook-f{
+		
+		color:#F7F7F7;
+	}
+	.fa-google-plus{
+		
+		color:#F7F7F7;
+	}
+	.fa-linkedin{
+		
+		color:#F7F7F7;
+	}
+	.fa-twitter-square{
+		color:#F7F7F7;
+	}
+	 .fa-skype{
+		 color:#F7F7F7;
+		 
+	 }
+	
+	footer {
+    text-align: center;
+   	margin: 6px auto;
+}
+	
